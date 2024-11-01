@@ -1,0 +1,89 @@
+/* base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF9F2; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* container */
+.container {
+    width: 90%;
+    max-width: 600px;
+    background-color: #FFFAF0;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea, button {
+    padding: 10px;
+    border: 1px solid #FFD6E7;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #FFB3C6; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF8BA3;
+}
+
+/* Recipe Display */
+.recipe-list {
+    margin-top: 20px;
+}
+
+.recipe-card {
+    background-color: #F0FFF4; 
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card h2 {
+    color: #FFA6B8; 
+}
+
+.recipe-card p {
+    color: #8FA6B8; 
+}
+
+.recipe-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.delete-btn {
+    background-color: #FFD6E7;
+    color: #444;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.error-message {
+    color: #FF6B6B;
+    font-weight: bold;
+    margin: 10px 0;
+}
